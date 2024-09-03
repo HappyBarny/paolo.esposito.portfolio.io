@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/portfolio_page_style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+
+        <div class="sidebar">
+            <div class="bookmarks">
+                <h4>Content:</h4>
+                <ul>
+                    <li><a href="#capitolo1" id="link-capitolo1">A University Project</a></li>
+                    <li><a href="#capitolo2" id="link-capitolo2">Analyzing the Ticket</a></li>
+                    <li><a href="#capitolo3" id="link-capitolo3">Observations and Considerations</a></li>
+                    <li><a href="#capitolo4" id="link-capitolo4">First Sketches</a></li>
+                    <li><a href="#capitolo5" id="link-capitolo5">My Redesign</a></li>
+                </ul>
+            </div>
+
+            <div class="profile">
+                <img src="images/assets/profilo.jpg" class="img-fluid rounded-circle float-center"
+                    alt="this is me with a white shirt and a pair of glasses">
+                <h4>Paolo Antonio Esposito</h4>
+                <h6>Informational Architect and UX Designer</h6>
+                <!-- <h5>Looking for a <br> <b>new team member?</b></h5> -->
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/paolo-antonio-esposito-951528177/"
+                    role="button">Let's know eachother on Linkedin!</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Delta Tickets Redesign</li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="title">
+                <h1 class="display-1" id="title">Delta Tickets Redesign</h1>
+                <div class="tags">
+                    <ul>
+                        <li>March 2024</li>
+                        <li>15 min read</li>
+                        <li>Solo Project</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2 id="capitolo1">A University Project</h2>
+                <p>This redesign is my first project as UX Designer and Informational Architect and took place during a
+                    lesson where my teacher, Raffaele Boiano, challenged me and my classmates to study the current paper
+                    version of the Delta Airlines Boarding Pass to make an improved version that could enhance the
+                    overall experience for both passengers and airport operators.
+
+                    <br><br>For this assignment I had 1 hour and 30 minutes to develop a fully functional prototype.
+                    During this time I had to follow different steps that could summarize as:
+                </p>
+                <ul>
+                    <li>Study and Research</li>
+                    <li>Sketching ideas and Prototype</li>
+                    <li>Testing and Re-sketching iterating on users feedbacks</li>
+                </ul>
+
+
+
+            </div>
+
+            <div>
+                <h2 id="capitolo2">Analyzing the Ticket</h2>
+                <p>The paper version of the Delta Airlines boarding pass is extremely confusing, with information
+                    printed out without any clear structure or hierarchy.
+                    <br><br>
+                    This lack of clear organization results in significant cognitive effort when browsing for essential
+                    details such as the flight number, gate, or departure time—information that should be the easiest
+                    one to grasp.
+                    <br><br>
+                    There are four key pain points in the current design where our attention must be addressed:
+                </p>
+                <ul>
+                    <li>Lack of visual hierarchy</li>
+                    <li>Poor Redability</li>
+                    <li>Information Overload</li>
+                    <li>Disorganized Layout</li>
+                </ul>
+                <p>
+                    Overall, this ticket can be described as quite disorganized. However, this issue prompted me to
+                    conduct research and ask important questions that guided me through the redesign process.
+                </p>
+                <img src="images/Delta Redesign/Delta Original Ticket.jpg" alt="Delta Original Ticket" class="img-fluid"
+                    onclick="openFullscreen(this)">
+            </div>
+
+            <div>
+                <h2 id="capitolo3">Observations and Considerations</h2>
+                <p>Before starting a redesign, it's crucial to understand what we are redesigning and who the redesign
+                    is for.
+                    <br><br>
+                    This challenge began with a brief from my teacher, who introduced the company and the main problem
+                    they were trying to solve (note: this was a simulation). During the brief, I took notes and
+                    identified two key elements among all the information provided:
+                </p>
+                <ol>
+                    <li>Delta Airlines aims to provide the most comfortable and valuable travel experience by offering
+                        passengers a range of comforts and benefits that are uncommon among other airlines, such as
+                        in-flight infotainment and access to private lounges at all the airports where the company
+                        operates.</li>
+                    <br>
+                    <li>According to the data presented during the brief, approximately 1% of passengers worldwide miss
+                        their flights due to unclear infrastructural information about their own flights.</li>
+                </ol>
+
+                <p>
+                    These two key points directed my primary focus towards the passenger experience, setting my goal to
+                    create something unique and valuable.
+
+                    However, the data gathered during the brief were not sufficient to begin my initial sketches.
+                    <br><br>
+                    Why?
+                    Because I didn't know if there were any technical constraints. While examining the ticket, I noticed
+                    several elements, such as the absence of color, the repetition of information in two poorly
+                    separated areas, and the specific format/layout used by Delta Airlines.
+                    <br>
+                    To eliminate any doubts, it was necessary to conduct further research using Google.
+                </p>
+                <br>
+                <ol>
+                    <li><b>Dimensions and Colors:</b><br>
+                        The boarding pass is printed at the desk in all airports using standard paper and a thermal
+                        printer, which limits the ticket to shades of black and white.
+                    </li>
+                    <br>
+
+                    <li><b>Layout:</b><br>
+                        The ticket is designed to be cut or torn by flight attendants or operators. This is a common
+                        standard,
+                        which is why the layout must present the same information in two different sections.
+                    </li>
+                    <br>
+
+                    <li><b>Updates:</b><br>
+                        Have you ever found yourself in a crowded airport where information isn't clearly visible, and
+                        you're
+                        unsure where to go? This is a common experience, and departure times and flight numbers can
+                        change at
+                        any moment. How might we solve this problem?
+                        <br>
+                        To address this issue, I considered different strategies. One was to print a QR code on the
+                        ticket that,
+                        when scanned with a smartphone or tablet, would redirect passengers to a web app where all
+                        flight
+                        information is constantly updated through a series of APIs.
+                    </li>
+                    <br>
+
+                    <li><b>Catching Attention:</b><br>
+                        The ticket must be in English, as it is the international language. However, according to a
+                        study, icons
+                        are useful for catching people's attention.
+                    </li>
+                    <br>
+                </ol>
+                <p>
+                    After this brief research, I had all the essential elements to begin creating my first sketch.
+                </p>
+            </div>
+
+            <div>
+                <h2 id="capitolo4">First Sketches</h2>
+                <p>
+                    While sketching, I kept in mind everything I had learned about the ticket and the company, focusing
+                    on the most important elements for passengers, such as:
+                </p>
+                <ul>
+                    <li>Flight</li>
+                    <li>Gate</li>
+                    <li>Boarding Time</li>
+                    <li>Departure Time</li>
+                    <li>Seat</li>
+                    <li>Updates</li>
+                </ul>
+                <p>
+                    All of this information should represent the main part of the ticket for the passenger.
+                    <br>My first sketch was pretty simple.
+                </p>
+
+                <img src="images/Delta Redesign/First Sketch.jpg" alt="Delta Original Ticket" class="img-fluid"
+                    onclick="openFullscreen(this)">
+                <br>
+                <br>
+                <p>
+                    Initial tests, conducted with people in my room, yielded positive results. The ticket was clear, the
+                    information was quickly
+                    accessible, and the layout was more organized, but the space was not managed optimally.
+                    <br>
+                    This was the project I delivered in an hour and a half.
+                    In an A-B test, this redesign proved to be a significant improvement over the current version of the
+                    ticket.
+                    <br>However, it was still lacking something, and I felt the need to spend some extra time refining
+                    this project.
+                </p>
+            </div>
+            
+            
+            <div>
+                <h2 id="capitolo5">My final Redesign</h2>
+                <p>
+                    To resolve the “space problem,” I decided to develop the same design vertically, which allowed me to
+                    gain some extra space to work with.
+                </p>
+                <p>
+                    All the previous sketches lacked an emotional element.
+                    <br>
+                    During the initial brief, my teacher emphasized how Delta Airlines strives to enhance the travel
+                    experience for all its customers by offering a wide range of comforts. According to the data, people
+                    choose to fly with Delta Airlines primarily for the travel experience they provide.
+                    <br><br>
+
+                    In this context, the journey itself can become a cherished memory—something we want to share or
+                    remember over time. The ticket, in particular, can be one of the elements we preserve in our albums
+                    or among our keepsakes, helping us relive that day even after many years. It can remind us of who we
+                    traveled with, what the weather was like and other customizable details such as the purpose of the
+                    trip.
+                    <br><br>
+                    As a designer, I strongly believe that to create a good design and a good product, we must balance
+                    functionality, beauty, and meaning.
+                    <br><br>
+                    Emotion enriches the user experience, transforming a product from a simple functional tool into an
+                    experience that carries emotional and personal value.
+                    <br>
+                    With all this in mind, let’s look at my final prototype.
+                </p>
+                <img src="images/Delta Redesign/Frame 14.jpg" alt="Delta Original Ticket" class="img-fluid"
+                    onclick="openFullscreen(this)">
+                <br><br>
+                <p>
+                    The ticket immediatly shows all the essential parts that a passengers needs to check quickly like:
+                    Flight, Gate, Board Time and Departs.
+                    The seat is represented in the ticket graphically and this can direct all the passengers to the
+                    right door or entrance.
+                    <br><br>
+
+                    The QR Code allows all the passengers to see directly on their mobile phone or tablet any changes to
+                    their flight, gate or departure.
+                    <br>
+                    The main core of this boarding pass is highlighted with some bold titles and icons. Different font
+                    sizes and font weight are used with graphical elements to quickly direct users attention.
+                    <br><br>
+
+                    In the right corner we can find a series of secondary information.
+                    This corner has the primary scope to make people relive that day even after years. It’s the
+                    emotional part I was previously talking about.
+                    In this particular redesign I’ve tried to pointed out who we were with during that fly; where we
+                    were directed and how was the weather.
+                    <br><br>
+
+                    If this was a trip with your girlfriend/boyfriend or if it was a trip with your family or friends
+                    the icons will change and it’s that custom part that can helps people to live again that day with
+                    Delta Airlines.
+                    This is not only something that can bring people to not throw away the ticket after their flight but
+                    it’s also a sort of anchor that can bind memories to the Delta brand.
+
+                </p>
+            </div>
+
+
+        </div>
+        <!-- Contenitore per l'immagine fullscreen -->
+        <div id="fullscreen-container" class="fullscreen-container">
+            <span class="close-button" onclick="closeFullscreen()">&times;</span>
+            <img id="fullscreen-image" class="fullscreen-image" src="" alt="Immagine Ingrandita"
+                onclick="event.stopPropagation();">
+            <!-- Bottoni per controllare lo zoom -->
+            <div class="zoom-controls" onclick="event.stopPropagation();">
+                <button onclick="zoomIn()" id="z1"><img src="images/assets/zoom-in.svg" alt="zoom in"></button>
+                <button onclick="zoomOut()" id="z2"><img src="images/assets/zoom-out.svg" alt="zoom out"></button>
+            </div>
+        </div>
+
+        <script src="js/portfolio_effects.js"></script>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
