@@ -4,7 +4,7 @@ function toggleMenu() {
 }
 
 function goToHomepage() {
-    window.location.href = "/";
+    window.location.href = "/index.html";
 }
 
 function scrollToTop() {
