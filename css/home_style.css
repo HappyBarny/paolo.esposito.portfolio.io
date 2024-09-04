@@ -338,6 +338,10 @@
         align-items: center;
     }
 
+    .date-card {
+        margin-right: 30px;
+    }
+
     #work_2>div {
         flex-direction: column;
         /* Stack items vertically */
