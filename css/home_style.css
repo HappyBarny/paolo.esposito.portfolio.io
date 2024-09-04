@@ -320,6 +320,20 @@
         display: none;
     }
 
+    header{
+        .second_col{
+            display: none;
+        }
+        .third_col{
+            margin-bottom: -70px;
+            margin-top: -50px;
+        }
+    }
+    
+    main{
+        margin-top: -40px;
+    }
+
     #card{
         flex: 0 0 auto;
         border: 2px solid rgb(204, 204, 204);
