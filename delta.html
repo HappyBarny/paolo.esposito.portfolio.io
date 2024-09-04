@@ -12,6 +12,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="css/portfolio_page_style.css">
+    <link rel="stylesheet" href="css/floating_button.css">
 </head>
 
 <body>
@@ -60,6 +61,16 @@
                         <li>15 min read</li>
                         <li>Solo Project</li>
                     </ul>
+                </div>
+                <div class="summary">
+                    <h2>Content:</h2>
+                    <ol>
+                        <li><a href="#capitolo1" id="link-capitolo1">A University Project</a></li>
+                        <li><a href="#capitolo2" id="link-capitolo2">Analyzing the Ticket</a></li>
+                        <li><a href="#capitolo3" id="link-capitolo3">Observations and Considerations</a></li>
+                        <li><a href="#capitolo4" id="link-capitolo4">First Sketches</a></li>
+                        <li><a href="#capitolo5" id="link-capitolo5">My Redesign</a></li>
+                    </ol>
                 </div>
             </div>
             <div>
@@ -216,8 +227,8 @@
                     this project.
                 </p>
             </div>
-            
-            
+
+
             <div>
                 <h2 id="capitolo5">My final Redesign</h2>
                 <p>
@@ -292,6 +303,12 @@
                 <button onclick="zoomOut()" id="z2"><img src="images/assets/zoom-out.svg" alt="zoom out"></button>
             </div>
         </div>
+
+        <div class="floating-button">
+            <button id="homeButton" onclick="goToHomepage()"><img src="images/assets/home.svg" alt="" width="35px" height="35px"></button>
+            <script src="js/floating_button.js"></script>
+        </div>
+
 
         <script src="js/portfolio_effects.js"></script>
 

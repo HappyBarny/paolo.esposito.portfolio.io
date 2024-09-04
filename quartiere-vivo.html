@@ -12,6 +12,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="css/portfolio_page_style.css">
+    <link rel="stylesheet" href="css/floating_button.css">
 </head>
 
 <body>
@@ -19,7 +20,6 @@
     </header>
 
     <main>
-
         <div class="sidebar">
             <div class="bookmarks">
                 <h4>Content:</h4>
@@ -64,6 +64,20 @@
                         <li>Team Project</li>
                     </ul>
                 </div>
+            </div>
+
+            <div class="summary">
+                <h2>Content:</h2>
+                <ol>
+                    <li><a href="#capitolo1" id="link-capitolo1">About this project</a></li>
+                    <li><a href="#capitolo2" id="link-capitolo2">Reframing the challenge</a>
+                    </li>
+                    <li><a href="#capitolo3" id="link-capitolo3">The Research</a></li>
+                    <li><a href="#capitolo4" id="link-capitolo4">From Personas to a possible Solution</a></li>
+                    <li><a href="#capitolo5" id="link-capitolo5">Informational Architecture</a></li>
+                    <li><a href="#capitolo6" id="link-capitolo6">Low Fidelity Sketches</a></li>
+                    <li><a href="#capitolo7" id="link-capitolo7">The Prototype</a></li>
+                </ol>
             </div>
             <div>
                 <h2 id="capitolo1">About this project</h2>
@@ -339,8 +353,8 @@
                     all the previous planning, wireframing, and functionality mapping into a fully interactive and
                     visually polished representation of the app.
                 </p>
+                <br><br>
             </div>
-            <br><br>
             <div>
                 <iframe
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVNXEFFezEDkxckUHGMLAmy%2FQuartiere-Vivo-APP%3Fnode-id%3D89-315%26t%3D9LR2fsh0Foecu0DN-1%26scaling%3Dscale-down%26content-scaling%3Dresponsive%26page-id%3D0%253A1%26starting-point-node-id%3D329%253A787"
@@ -363,9 +377,13 @@
 
         <script src="js/portfolio_effects.js"></script>
 
+        <div class="floating-button">
+            <button id="homeButton" onclick="goToHomepage()"><img src="images/assets/home.svg" alt="" width="35px" height="35px"></button>
+            <script src="js/floating_button.js"></script>
+        </div>
+
     </main>
     <footer>
-        <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
