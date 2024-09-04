@@ -1,0 +1,26 @@
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#homeButton {
+    background-color: #18D707;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes the button perfectly round */
+    padding: 15px;
+    font-size: 24px; /* Increase the size for better visibility */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60px; /* Ensures the button is a circle */
+    height: 60px; /* Ensures the button is a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeButton:focus {
+    outline: none;
+}

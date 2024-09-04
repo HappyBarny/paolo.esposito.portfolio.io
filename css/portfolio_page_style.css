@@ -132,6 +132,9 @@
             color: #18D707;
         }
 
+        .summary{
+            display: none;
+        }
 
         #title {
             margin-top: -3rem;
@@ -253,6 +256,12 @@
         height: 450px;
 
     }
+
+    .floating-button{
+        #homeButton{
+            display: none;
+        }
+    }
 }
 
 
@@ -290,6 +299,24 @@
 
         h2 {
             margin-top: 40px;
+        }
+
+        .summary{
+            margin-top: 5%;
+
+            li{
+                margin-top: 10px;
+            }
+
+            a {
+                font-weight: normal;
+                /* text-decoration: none; */
+                color: black;
+            }
+            a:hover{
+                color:#18D707;
+                font-weight: bold;
+            }
         }
     }
 }
@@ -367,4 +394,9 @@ iframe {
 
 .zoom-controls button:hover {
     background-color: #ddd;
+}
+
+.footer{
+    margin-left: 10%;
+    margin-right: 10%;
 }

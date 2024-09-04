@@ -329,7 +329,6 @@
             margin-top: -50px;
         }
     }
-    
     main{
         margin-top: -40px;
     }
@@ -352,7 +351,7 @@
         align-items: center;
     }
 
-    .date-card {
+    .date-card{
         margin-right: 30px;
     }
 
@@ -418,6 +417,7 @@
     footer {
         margin-top: 10%;
         margin-bottom: 5%;
+        
         img {
             margin-top: 30px;
         }
