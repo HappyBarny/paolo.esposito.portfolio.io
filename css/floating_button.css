@@ -6,12 +6,14 @@
 }
 
 #homeButton {
+    display: none; /* Hidden by default */
+    opacity: 0; /* Transparent by default */
     background-color: #18D707;
     color: white;
     border: none;
     border-radius: 50%; /* Makes the button perfectly round */
     padding: 15px;
-    font-size: 24px; /* Increase the size for better visibility */
+    font-size: 24px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 60px; /* Ensures the button is a circle */
@@ -19,6 +21,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out; /* Smooth transition */
+    visibility: hidden; /* Button is not interactable when hidden */
+}
+
+#homeButton.show {
+    opacity: 1; /* Fully visible */
+    visibility: visible; /* Visible and interactable */
 }
 
 #homeButton:focus {
