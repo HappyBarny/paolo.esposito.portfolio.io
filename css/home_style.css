@@ -226,7 +226,7 @@
 
     #work_2 div img {
         border-radius: 10px;
-        width: clamp(300px, 55%, 600px);
+        width: clamp(300px, 55%, 500px);
     }
 
     #work_2 div .description {
@@ -652,7 +652,7 @@
 
     #work_2 div img {
         border-radius: 10px;
-        width: clamp(600px, 55%, 900px);
+        width: clamp(600px, 55%, 700px);
         margin-right: 10%;
     }
 
