@@ -652,7 +652,7 @@
 
     #work_2 div img {
         border-radius: 10px;
-        width: clamp(600px, 55%, 700px);
+        width: clamp(450px, 40%, 700px);
         margin-right: 10%;
     }
 
