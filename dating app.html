@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta tags  Author and SEO Indexing-->
+    <title>A boarding pass redesign by Paolo A. Esposito Portfolio</title>
+    <meta name="author" content="Paolo Antonio Esposito">
+    <meta name="dc.language" content="en" scheme="BCP47">
+    <meta name="description"
+        content="Designing a Dating App" />
+
+
+    <!-- Meta Open Graphs Tags (OG) -->
+    <meta property="og:image" content="https://link" />
+    <meta property="og:description" content="Information Architecture of a Dating app, aimed at enhancing the experience for users. This university project explores different solutions for different problems" />
+    <meta property="og:title" content="Designing a Dating app – University Project" />
+
+
+    <!-- Required meta tags BS5 Def. -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/portfolio_page_style.css">
+    <link rel="stylesheet" href="css/floating_button.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+
+        <div class="sidebar">
+            <div class="bookmarks">
+                <h4>Content:</h4>
+                <ul>
+                    <li><a href="#capitolo1" id="link-capitolo1">Introduction - Working in progress</a></li>
+                    <li><a href="#capitolo2" id="link-capitolo2">The Research</a></li>
+                    <li><a href="#capitolo3" id="link-capitolo3">The Research</a></li>
+                </ul>
+            </div>
+
+            <div class="profile">
+                <img src="images/assets/profilo.jpg" class="img-fluid rounded-circle float-center"
+                    alt="this is me with a white shirt and a pair of glasses">
+                <h4>Paolo Antonio Esposito</h4>
+                <h6>Informational Architect and UX Designer</h6>
+                <!-- <h5>Looking for a <br> <b>new team member?</b></h5> -->
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/paolo-antonio-esposito-951528177/"
+                    role="button">Let's know eachother on Linkedin!</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><img src="images/assets/home-green.svg" alt="" width="20px" height="20px">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Delta Tickets Redesign</li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="title">
+                <h1 class="display-1" id="title">Delta Tickets Redesign</h1>
+                <div class="tags">
+                    <ul>
+                        <li>September 2024</li>
+                        <li>15 min read</li>
+                        <li>Team Project</li>
+                    </ul>
+                </div>
+                <div class="summary">
+                    <h3>Content:</h3>
+                    <ol>
+                        <li><a href="#capitolo1" id="link-capitolo1">Introduction - Working in progress</a></li>
+                        <li><a href="#capitolo2" id="link-capitolo2">The Research</a></li>
+                        <li><a href="#capitolo3" id="link-capitolo3">The Research</a></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div>
+                <h2 id="capitolo1">Introduction - Working in progress</h2>
+                <p>Designing a user-friendly and effective dating app presents a range of unique challenges in the field of UX design, especially when competing in a market saturated with platforms like Tinder, Badoo, and Hinge. Each of these apps has its own approach to fostering connections, yet there remains untapped potential for improving how users interact and form meaningful relationships online. 
+                    <br>
+                    For this project, I collaborated with Rossana Donofrio to deliver a fresh, innovative, and research-driven approach to the dating app experience, aiming to create the best possible solution for users.
+                    What sets our dating app apart is its focus on deeper compatibility and authentic interactions, going beyond the surface-level swiping that apps like Tinder and Badoo rely on.
+                </p>
+                <br>
+                <p>Note: We are still working on this project</p>
+            </div>
+
+            <div>
+                <h2 id="capitolo2">The Research</h2>
+                <p>
+                    I still need some time to upload and translate the entire project. However, if you're curious to learn more, feel free to send me a message—I'd be happy to share our work with you! In the meantime, you can check out my other projects (they're all finished).</p>
+            </div>
+
+            <div>
+                <h2 id="capitolo3">Informational Architecture</h2>
+                <p>f you're curious to learn more, feel free to send me a message—I'd be happy to share our work with you! In the meantime, you can check out my other projects (they're all finished).</p>
+            </div>
+        </div>
+        <!-- Contenitore per l'immagine fullscreen -->
+        <div id="fullscreen-container" class="fullscreen-container">
+            <span class="close-button" onclick="closeFullscreen()">&times;</span>
+            <img id="fullscreen-image" class="fullscreen-image" src="" alt="Immagine Ingrandita"
+                onclick="event.stopPropagation();">
+            <!-- Bottoni per controllare lo zoom -->
+            <div class="zoom-controls" onclick="event.stopPropagation();">
+                <button onclick="zoomIn()" id="z1"><img src="images/assets/zoom-in.svg" alt="zoom in"></button>
+                <button onclick="zoomOut()" id="z2"><img src="images/assets/zoom-out.svg" alt="zoom out"></button>
+            </div>
+        </div>
+
+        <div class="floating-button">
+            <button id="homeButton" onclick="scrollToTop()"><img src="images/assets/arrow-up.svg" height="40px" width="40px" alt=""></button>
+            <script src="js/floating_button.js"></script>
+        </div>
+
+
+        <script src="js/portfolio_effects.js"></script>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
