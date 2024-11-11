@@ -153,8 +153,9 @@
 
             h1 {
                 margin-bottom: 2rem;
-                font-size: clamp(3rem, 7vw, 5rem);
-                line-height: 80px;
+                font-size: clamp(3rem, 4vw, 5rem);
+                /* line-height: 64px; */
+                line-height: clamp(65px, 5vw, 80px);
             }
 
             .tags {
